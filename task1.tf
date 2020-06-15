@@ -44,7 +44,7 @@ resource "aws_security_group" "task1-securitygroup" {
 
 
 resource "aws_s3_bucket" "task1shivam" {
-    bucket = "tas1-shivam"
+    bucket = "task1-shivam"
     acl    = "public-read"
 
     tags = {
